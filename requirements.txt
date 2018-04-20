@@ -1,32 +1,3 @@
-What is required to install for this project:
-
-pip install -r requirements.txt (installs the packages referred in the requirements.txt document)
-
-steps:
-    1- create virtualenv with the command: 
-            python -m venv environment
-
-        Running this command creates the target directory (creating any parent directories that don’t exist already) 
-        and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command 
-        was run. It also creates a bin (or Scripts on Windows) subdirectory containing a copy of the python binary 
-        (or binaries, in the case of Windows). It also creates an (initially empty) lib/pythonX.Y/site-packages 
-        subdirectory (on Windows, this is Lib\site-packages).
-        If an existing directory is specified, it will be re-used.
-
-        Deprecated since version 3.6: pyvenv was the recommended tool for creating virtual environments for Python 3.3 
-        and 3.4, and is deprecated in Python 3.6.
-
-        Changed in version 3.5: The use of venv is now recommended for creating virtual environments.
-
-    2- activate the env with .\environment\Scripts\activate.bat
-
-    3- pip install flask-restful
-
-pip install flask-restful
-
-pip install nose
-
-
 Flask==0.10.1
 Flask-RESTful==0.3.6
 webargs==2.1.0
